@@ -1,0 +1,53 @@
+.container-l {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .loginBox {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px; /* Added border-radius for a more rounded appearance */
+    text-align: center;
+    transition: box-shadow 0.5s ease;
+  }
+  
+  .loginBox:hover {
+    box-shadow: 0 0 10px rgb(197, 197, 197);
+  }
+  
+  .heading {
+    color: white;
+  }
+  
+  .inputField {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    margin-bottom: 35px;
+    border: 1px solid white; /* Added border for input field */
+    border-radius: 5px; /* Added border-radius for a more rounded input field */
+  }
+  
+  .fancyButton {
+    
+    padding: 5px;
+    background-color: #3498db; /* Changed background color for a fancier look */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Added border-radius for a more rounded button */
+    cursor: pointer;
+    font-weight: bold;
+    width: 40%;
+    margin-bottom: 15px;
+  }
+  
+  .fancyButton:hover {
+    background-color: #2980b9;
+    width: 41%; 
+  }
+  .error{
+    color: red;
+  }
