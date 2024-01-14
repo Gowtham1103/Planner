@@ -8,7 +8,7 @@ const Login = () => {
     const navigate = useNavigate()
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(key==="log2017"){
+        if(key==="Gp2017#"){
             navigate("/home")
         }
         else{
