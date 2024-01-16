@@ -60,7 +60,7 @@ const ViewUser = () => {
                         </li>
                     </ul>
                 </div>
-                <button className='btn btn-primary my-2' onClick={backHome}>back to Home</button>
+                <button className='btn btn-primary my-2 ' onClick={backHome}>back to Home</button>
             </div>
         </div>
       </div>

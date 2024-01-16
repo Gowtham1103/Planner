@@ -61,7 +61,7 @@ const AddPlan = () => {
                                 />
                                 
                         </div>
-                        <button type="submit" className='m-2 btn btn-outline-info ' >Add + </button>
+                        <button type="submit" className='m-2 btn btn-outline-success ' >Add + </button>
                         <button type="submit" className='m-3 btn btn-outline-danger 'onClick={cancelBtn} >Cancel</button>
                         </form>
                 </div>

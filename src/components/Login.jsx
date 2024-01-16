@@ -8,7 +8,7 @@ const Login = () => {
     const navigate = useNavigate()
     const handleSubmit = (e) => {
         e.preventDefault();
-        if(key==="Gp2017#"){
+        if(key==="log2017"||key==="Log2017"){
             navigate("/home")
         }
         else{
@@ -20,7 +20,7 @@ const Login = () => {
 <div className="container-l">
     <div className="loginBox">
       <p className='heading'>Enter the key to access</p>
-      <input type="text" placeholder="Enter the key" className="inputField" 
+      <input type="password" placeholder="Enter the key" className="inputField" 
         onChange={(e)=>setkey(e.target.value)}
       />
       <button className="fancyButton">Submit</button>

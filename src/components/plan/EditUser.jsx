@@ -83,8 +83,8 @@ const EditPlan = () => {
                                 />
                                 
                         </div>
-                        <button type="submit" className='m-2 btn btn-outline-info ' >Save </button>
-                        <button type="submit" className='m-3 btn btn-outline-danger 'onClick={cancelBtn} >Cancel</button>
+                        <button type="submit" className='m-2 btn btn-outline-success ' >Change </button>
+                        <button type="submit" className='m-3 btn btn-outline-danger 'onClick={cancelBtn} >Back</button>
                         </form>
                 </div>
                 
