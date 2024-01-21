@@ -12,7 +12,7 @@ const Home = () => {
 
 
     const loadPlans = async () =>{
-        const result = await axios.get("https://few-parcel-production.up.railway.app/api.springboot/getplans")
+        const result = await axios.get("https://regal-form-production.up.railway.app/api.springboot/getplans")
         setPlans(result.data)
     }
     useEffect(()=>{
@@ -23,7 +23,7 @@ const Home = () => {
         navigate(`/edit/${id}`)
     }
     const deleteBtn = async (id) =>{
-      await axios.delete(`https://few-parcel-production.up.railway.app/api.springboot/deleteplan/${id}`)
+      await axios.delete(`https://regal-form-production.up.railway.app/api.springboot/deleteplan/${id}`)
       loadPlans()
     }
     const viewBtn = (id) =>{

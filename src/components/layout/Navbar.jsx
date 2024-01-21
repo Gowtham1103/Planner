@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark ">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">FullStack App</a>
+    <a className="navbar-brand" href="#">Trip-Planner</a>
    <button className='btn btn-outline-light' onClick={addPlan}>+ Add Plan</button>
    </div>
 </nav>

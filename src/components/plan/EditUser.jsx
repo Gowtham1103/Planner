@@ -19,7 +19,7 @@ const EditPlan = () => {
 
     const onSubmit = async (e) => {
             e.preventDefault();
-            await axios.put(`https://few-parcel-production.up.railway.app/api.springboot/updateplan/${id}`,{
+            await axios.put(`https://regal-form-production.up.railway.app/api.springboot/updateplan/${id}`,{
                 place,
                 date,
                 time,
@@ -35,7 +35,7 @@ const EditPlan = () => {
     
 
     const loadPlan = async () =>{
-        const dataById = await axios.get(`https://few-parcel-production.up.railway.app/api.springboot/getplan/${id}`)
+        const dataById = await axios.get(`https://regal-form-production.up.railway.app/api.springboot/getplan/${id}`)
         setPlace(dataById.data.place)
         setDate(dataById.data.date)
         setTime(dataById.data.time)

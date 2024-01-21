@@ -16,7 +16,7 @@ const AddPlan = () => {
 
     const onSubmit = async (e) => {
             e.preventDefault();
-            await axios.post("https://few-parcel-production.up.railway.app/api.springboot/postplan",{
+            await axios.post("https://regal-form-production.up.railway.app/api.springboot/postplan",{
                 place,
                 date,
                 time,

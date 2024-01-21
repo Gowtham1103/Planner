@@ -19,7 +19,7 @@ const ViewUser = () => {
     },[])
 
     const loadUser = async () =>{
-        const result = axios.get(`https://few-parcel-production.up.railway.app/api.springboot/getplan/${id}`)
+        const result = axios.get(`https://regal-form-production.up.railway.app/api.springboot/getplan/${id}`)
         setPlace((await result).data.place)
         setDate((await result).data.date)
         setTime((await result).data.time)
